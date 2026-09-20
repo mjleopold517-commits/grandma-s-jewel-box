@@ -35,7 +35,6 @@ export const Route = createFileRoute("/")({
           name: "Grandma's Vintage Jewelry",
           description:
             "A carefully collected selection of vintage jewelry, brooches, necklaces, pins, and unique pieces.",
-degrees: undefined,
         }),
       },
     ],
@@ -55,10 +54,10 @@ function Home() {
       <section className="relative">
         <div className="bg-cream relative min-h-[560px] overflow-hidden">
           <img
-            src="/hero-collection.jpg"
+            src="/products/pearl-set.jpg"
             alt="A collection of vintage jewelry arranged on ivory linen"
-            width={1920}
-            height={1280}
+            width={1024}
+            height={1024}
             className="absolute inset-0 h-full w-full object-cover opacity-70"
           />
           <div className="from-background/95 via-background/70 absolute inset-0 bg-gradient-to-r to-transparent" />
